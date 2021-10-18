@@ -1,0 +1,35 @@
+
+body {
+    color:black;
+    background-color:white;
+    background-image:url(background.jpg);
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-position:50% 50%;
+    margin:0;
+    }
+body {
+      background-color: #e9ecf0;
+      
+      font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+      font-size: 20px;
+      margin: 0 auto;
+      max-width: 600px;
+    }
+  
+
+
+#error{
+
+background-color:pink;
+padding:5px;
+border: 1px solid black;
+
+}
+#resultat{
+
+    background-color:green;
+    padding: 5px;
+    color : white;
+
+}

@@ -1,0 +1,22 @@
+body {
+    color:black;
+    background-color:white;
+    background-image:url(background.jpg);
+    background-repeat:no-repeat;
+    background-position:50% 50%;
+    margin: 0px;;
+}
+
+
+body {
+      background-color: #e9ecf0;
+      
+      font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+      font-size: 20px;
+      margin: 0 auto;
+      max-width: 600px;
+}
+  
+div {
+background-position:  25cm bottom;
+}

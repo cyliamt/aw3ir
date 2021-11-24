@@ -68,21 +68,22 @@ window.onload = function () {   // ce code est exécuter une fois que toute la p
 
     if (lm !== 0 && lm < 5) {
         if (lp == 0 || ld == 0 || ln == 0 || la == 0) {
+            
 
             var myModal = new bootstrap.Modal(document.getElementById('myModal1'));
             myModal.show();
-          
+            
 
         }
         else if (lp !== 0 && ld !== 0 && ln !== 0 && la !== 0) {
             if (m.match(mailformat)) {
-                
+
             }
             else {
 
                 var myModal = new bootstrap.Modal(document.getElementById('myModal5'));
                 myModal.show();
-                
+
             }
 
         }

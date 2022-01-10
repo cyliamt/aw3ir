@@ -8,8 +8,7 @@ window.onload = function () {
     console.log(contactList[index].date);
     console.log(contactList[index].adress);
     console.log(contactList[index].mail);
-    document.querySelector("table tbody").innerHTML = document.querySelector("table tbody").innerHTML +
-    '<tr><td>'+contactList[index].firstname+'</td><td>'+contactList[index].name+'</td><td>'+contactList[index].mail+'</td><td>'+contactList[index].adress+'</td><td>'+contactList[index].date+'</tr><td>';
+    document.querySelector("table tbody").innerHTML += '<tr><td>'+contactList[index].firstname+'</td><td>'+contactList[index].name+'</td><td>'+contactList[index].mail+'</td><td>'+contactList[index].adress+'</td><td>'+contactList[index].date+'</td></tr>';
 
   }
 
